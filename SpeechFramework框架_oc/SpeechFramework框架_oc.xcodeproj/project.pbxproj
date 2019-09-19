@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0573492233316B700CD3BC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0573491233316B700CD3BC9 /* AppDelegate.m */; };
+		A0573495233316B700CD3BC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0573494233316B700CD3BC9 /* ViewController.m */; };
+		A0573498233316B700CD3BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0573496233316B700CD3BC9 /* Main.storyboard */; };
+		A057349A233316B800CD3BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0573499233316B800CD3BC9 /* Assets.xcassets */; };
+		A057349D233316B800CD3BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A057349B233316B800CD3BC9 /* LaunchScreen.storyboard */; };
+		A05734A0233316B800CD3BC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A057349F233316B800CD3BC9 /* main.m */; };
+		A05734AA233316B800CD3BC9 /* SpeechFramework___ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05734A9233316B800CD3BC9 /* SpeechFramework___ocTests.m */; };
+		A05734B5233316B800CD3BC9 /* SpeechFramework___ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05734B4233316B800CD3BC9 /* SpeechFramework___ocUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A05734A6233316B800CD3BC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0573485233316B700CD3BC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A057348C233316B700CD3BC9;
+			remoteInfo = "SpeechFramework框架_oc";
+		};
+		A05734B1233316B800CD3BC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0573485233316B700CD3BC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A057348C233316B700CD3BC9;
+			remoteInfo = "SpeechFramework框架_oc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A057348D233316B700CD3BC9 /* SpeechFramework框架_oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeechFramework框架_oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0573490233316B700CD3BC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0573491233316B700CD3BC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0573493233316B700CD3BC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0573494233316B700CD3BC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0573497233316B700CD3BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0573499233316B800CD3BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A057349C233316B800CD3BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A057349E233316B800CD3BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A057349F233316B800CD3BC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A05734A5233316B800CD3BC9 /* SpeechFramework框架_ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpeechFramework框架_ocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05734A9233316B800CD3BC9 /* SpeechFramework___ocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SpeechFramework___ocTests.m"; sourceTree = "<group>"; };
+		A05734AB233316B800CD3BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05734B0233316B800CD3BC9 /* SpeechFramework框架_ocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpeechFramework框架_ocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05734B4233316B800CD3BC9 /* SpeechFramework___ocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SpeechFramework___ocUITests.m"; sourceTree = "<group>"; };
+		A05734B6233316B800CD3BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A057348A233316B700CD3BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05734A2233316B800CD3BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05734AD233316B800CD3BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0573484233316B700CD3BC9 = {
+			isa = PBXGroup;
+			children = (
+				A057348F233316B700CD3BC9 /* SpeechFramework框架_oc */,
+				A05734A8233316B800CD3BC9 /* SpeechFramework框架_ocTests */,
+				A05734B3233316B800CD3BC9 /* SpeechFramework框架_ocUITests */,
+				A057348E233316B700CD3BC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A057348E233316B700CD3BC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A057348D233316B700CD3BC9 /* SpeechFramework框架_oc.app */,
+				A05734A5233316B800CD3BC9 /* SpeechFramework框架_ocTests.xctest */,
+				A05734B0233316B800CD3BC9 /* SpeechFramework框架_ocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A057348F233316B700CD3BC9 /* SpeechFramework框架_oc */ = {
+			isa = PBXGroup;
+			children = (
+				A0573490233316B700CD3BC9 /* AppDelegate.h */,
+				A0573491233316B700CD3BC9 /* AppDelegate.m */,
+				A0573493233316B700CD3BC9 /* ViewController.h */,
+				A0573494233316B700CD3BC9 /* ViewController.m */,
+				A0573496233316B700CD3BC9 /* Main.storyboard */,
+				A0573499233316B800CD3BC9 /* Assets.xcassets */,
+				A057349B233316B800CD3BC9 /* LaunchScreen.storyboard */,
+				A057349E233316B800CD3BC9 /* Info.plist */,
+				A057349F233316B800CD3BC9 /* main.m */,
+			);
+			path = "SpeechFramework框架_oc";
+			sourceTree = "<group>";
+		};
+		A05734A8233316B800CD3BC9 /* SpeechFramework框架_ocTests */ = {
+			isa = PBXGroup;
+			children = (
+				A05734A9233316B800CD3BC9 /* SpeechFramework___ocTests.m */,
+				A05734AB233316B800CD3BC9 /* Info.plist */,
+			);
+			path = "SpeechFramework框架_ocTests";
+			sourceTree = "<group>";
+		};
+		A05734B3233316B800CD3BC9 /* SpeechFramework框架_ocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A05734B4233316B800CD3BC9 /* SpeechFramework___ocUITests.m */,
+				A05734B6233316B800CD3BC9 /* Info.plist */,
+			);
+			path = "SpeechFramework框架_ocUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A057348C233316B700CD3BC9 /* SpeechFramework框架_oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05734B9233316B800CD3BC9 /* Build configuration list for PBXNativeTarget "SpeechFramework框架_oc" */;
+			buildPhases = (
+				A0573489233316B700CD3BC9 /* Sources */,
+				A057348A233316B700CD3BC9 /* Frameworks */,
+				A057348B233316B700CD3BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpeechFramework框架_oc";
+			productName = "SpeechFramework框架_oc";
+			productReference = A057348D233316B700CD3BC9 /* SpeechFramework框架_oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A05734A4233316B800CD3BC9 /* SpeechFramework框架_ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05734BC233316B800CD3BC9 /* Build configuration list for PBXNativeTarget "SpeechFramework框架_ocTests" */;
+			buildPhases = (
+				A05734A1233316B800CD3BC9 /* Sources */,
+				A05734A2233316B800CD3BC9 /* Frameworks */,
+				A05734A3233316B800CD3BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05734A7233316B800CD3BC9 /* PBXTargetDependency */,
+			);
+			name = "SpeechFramework框架_ocTests";
+			productName = "SpeechFramework框架_ocTests";
+			productReference = A05734A5233316B800CD3BC9 /* SpeechFramework框架_ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A05734AF233316B800CD3BC9 /* SpeechFramework框架_ocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05734BF233316B800CD3BC9 /* Build configuration list for PBXNativeTarget "SpeechFramework框架_ocUITests" */;
+			buildPhases = (
+				A05734AC233316B800CD3BC9 /* Sources */,
+				A05734AD233316B800CD3BC9 /* Frameworks */,
+				A05734AE233316B800CD3BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05734B2233316B800CD3BC9 /* PBXTargetDependency */,
+			);
+			name = "SpeechFramework框架_ocUITests";
+			productName = "SpeechFramework框架_ocUITests";
+			productReference = A05734B0233316B800CD3BC9 /* SpeechFramework框架_ocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0573485233316B700CD3BC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Kitedge;
+				TargetAttributes = {
+					A057348C233316B700CD3BC9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A05734A4233316B800CD3BC9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A057348C233316B700CD3BC9;
+					};
+					A05734AF233316B800CD3BC9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A057348C233316B700CD3BC9;
+					};
+				};
+			};
+			buildConfigurationList = A0573488233316B700CD3BC9 /* Build configuration list for PBXProject "SpeechFramework框架_oc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0573484233316B700CD3BC9;
+			productRefGroup = A057348E233316B700CD3BC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A057348C233316B700CD3BC9 /* SpeechFramework框架_oc */,
+				A05734A4233316B800CD3BC9 /* SpeechFramework框架_ocTests */,
+				A05734AF233316B800CD3BC9 /* SpeechFramework框架_ocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A057348B233316B700CD3BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A057349D233316B800CD3BC9 /* LaunchScreen.storyboard in Resources */,
+				A057349A233316B800CD3BC9 /* Assets.xcassets in Resources */,
+				A0573498233316B700CD3BC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05734A3233316B800CD3BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05734AE233316B800CD3BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0573489233316B700CD3BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0573495233316B700CD3BC9 /* ViewController.m in Sources */,
+				A05734A0233316B800CD3BC9 /* main.m in Sources */,
+				A0573492233316B700CD3BC9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05734A1233316B800CD3BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05734AA233316B800CD3BC9 /* SpeechFramework___ocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05734AC233316B800CD3BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05734B5233316B800CD3BC9 /* SpeechFramework___ocUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A05734A7233316B800CD3BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A057348C233316B700CD3BC9 /* SpeechFramework框架_oc */;
+			targetProxy = A05734A6233316B800CD3BC9 /* PBXContainerItemProxy */;
+		};
+		A05734B2233316B800CD3BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A057348C233316B700CD3BC9 /* SpeechFramework框架_oc */;
+			targetProxy = A05734B1233316B800CD3BC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0573496233316B700CD3BC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0573497233316B700CD3BC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A057349B233316B800CD3BC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A057349C233316B800CD3BC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A05734B7233316B800CD3BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A05734B8233316B800CD3BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A05734BA233316B800CD3BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR7E544D52;
+				INFOPLIST_FILE = "SpeechFramework框架_oc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banbanbaoPush.www.SpeechFramework---oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A05734BB233316B800CD3BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR7E544D52;
+				INFOPLIST_FILE = "SpeechFramework框架_oc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banbanbaoPush.www.SpeechFramework---oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A05734BD233316B800CD3BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR7E544D52;
+				INFOPLIST_FILE = "SpeechFramework框架_ocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banbanbaoPush.www.SpeechFramework---ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechFramework框架_oc.app/SpeechFramework框架_oc";
+			};
+			name = Debug;
+		};
+		A05734BE233316B800CD3BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR7E544D52;
+				INFOPLIST_FILE = "SpeechFramework框架_ocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banbanbaoPush.www.SpeechFramework---ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechFramework框架_oc.app/SpeechFramework框架_oc";
+			};
+			name = Release;
+		};
+		A05734C0233316B800CD3BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR7E544D52;
+				INFOPLIST_FILE = "SpeechFramework框架_ocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banbanbaoPush.www.SpeechFramework---ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpeechFramework框架_oc";
+			};
+			name = Debug;
+		};
+		A05734C1233316B800CD3BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR7E544D52;
+				INFOPLIST_FILE = "SpeechFramework框架_ocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banbanbaoPush.www.SpeechFramework---ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpeechFramework框架_oc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0573488233316B700CD3BC9 /* Build configuration list for PBXProject "SpeechFramework框架_oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05734B7233316B800CD3BC9 /* Debug */,
+				A05734B8233316B800CD3BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05734B9233316B800CD3BC9 /* Build configuration list for PBXNativeTarget "SpeechFramework框架_oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05734BA233316B800CD3BC9 /* Debug */,
+				A05734BB233316B800CD3BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05734BC233316B800CD3BC9 /* Build configuration list for PBXNativeTarget "SpeechFramework框架_ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05734BD233316B800CD3BC9 /* Debug */,
+				A05734BE233316B800CD3BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05734BF233316B800CD3BC9 /* Build configuration list for PBXNativeTarget "SpeechFramework框架_ocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05734C0233316B800CD3BC9 /* Debug */,
+				A05734C1233316B800CD3BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0573485233316B700CD3BC9 /* Project object */;
+}
